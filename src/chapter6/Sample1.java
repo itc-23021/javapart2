@@ -11,5 +11,8 @@ public class Sample1 {
 
         System.out.println(tax.zeigaku());
 
+        tax.setKoujo(400000);
+        System.out.println("控除額" + tax.getKoujo());
+
     }
 }
